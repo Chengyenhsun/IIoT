@@ -2,7 +2,7 @@ import socket
 import RPi.GPIO as GPIO
 
 # vim: set fileencoding=utf-8 :
-led_pin = 21
+led_pin = 40
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(led_pin, GPIO.OUT)
 
