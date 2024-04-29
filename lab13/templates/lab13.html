@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 注意 : 樹梅派上的html檔 ，請使用英文註解 ，否則會有解碼問題 -->
+<!-- 基本的html架構，可以在vs code 裡 新增空的html檔，然後在第一行打 ! 再按 Tab鍵 即會幫你生成 -->
+
+<!-- head 裡主要存放css code 去對網頁做排版以及美觀，但這次課程不會教，作業也不需要寫到，頂多需要修改title文字 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST Example</title>
+</head>
+
+<!-- body區域，主要寫html的架構以及javascript(這次也不會用到)， 這次作業會需要做修改的地方，主要是body裡的html code，以及可能會需要上網查一些相關用法 -->
+<body>
+    
+    <!-- 標題 -->
+    <h3>Student Data</h3>
+    <hr>
+    <form action="/student_data" method="POST">  
+        <table>
+            <tr>
+                <td style="text-align: center;">Name</td>
+                <td><input type="text" name="string1"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">ID</td>
+                <td><input type="text" name="string2"></td>
+            </tr>
+        </table>
+        <br>
+        <button type="submit">Submit</button>  
+    </form>
+</body>
+</html>
